@@ -1,0 +1,48 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+input[type=text],input[type=password]{
+    width:50%;
+    padding: 12px 18px ;
+    margin:8px 0;
+    display:inline block;
+    border:1px sloid hsl(50, 44%, 82%)
+    box-sizing: border-box;
+
+}
+button{
+    background-color: rgb(219, 187, 111);
+    color:rgb(0, 0, 1);
+    padding:12px 20px;
+    margin:8px 0;
+    border:rgb(186, 88, 42);
+    cursor:pointer;
+    width:50%;
+
+}
+button:hover{
+    opacity:10;
+}
+.imgcontainer{
+    text-align:center;
+    margin:30px 0 20px 0;
+    position:relative;
+
+}
+img.oldmoney{
+    width:60%;
+    border-radius:1%;
+}
+.modal{
+    background-color: rgb(223, 198, 166);
+    overflow:scroll;
+    padding-top: 60px;
+    width: 100%;
+    height:100%;
+    top:0%;
+    left:0%;
+    z-index:9;
+    position:fixed;
+
+
+}
